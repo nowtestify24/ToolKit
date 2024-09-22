@@ -9,6 +9,7 @@ Piping: Implements inter-process communication through piping.
 Signal Handling: ctrl-z SIGSTP signal handling
 Input/Output Redirection: Uses file descriptors to handle input and output redirection seamlessly.
 Custom Commands: Includes custom implementations of common Unix commands such as mypwd and mycd.
+
 Technical Details
 Language: C/C++
 System Calls: fork(), execvp(), pipe(), dup2()
